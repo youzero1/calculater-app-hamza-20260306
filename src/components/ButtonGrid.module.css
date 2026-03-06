@@ -1,0 +1,22 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 72px);
+  grid-template-rows: repeat(5, 72px);
+  gap: 12px;
+  padding: 12px 16px 24px 16px;
+  justify-content: center;
+}
+
+/* The zero button spans 2 columns */
+.grid > :nth-child(17) {
+  grid-column: span 2;
+}
+
+@media (max-width: 400px) {
+  .grid {
+    grid-template-columns: repeat(4, 60px);
+    grid-template-rows: repeat(5, 60px);
+    gap: 10px;
+    padding: 10px 12px 20px 12px;
+  }
+}
