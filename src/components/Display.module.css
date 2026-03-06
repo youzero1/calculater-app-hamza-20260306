@@ -1,0 +1,30 @@
+.display {
+  background-color: transparent;
+  padding: 16px 24px 8px 24px;
+  text-align: right;
+  min-height: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 4px;
+}
+
+.expression {
+  color: #888888;
+  font-size: 1rem;
+  min-height: 1.4rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.value {
+  color: #ffffff;
+  font-size: 3.5rem;
+  font-weight: 300;
+  line-height: 1.1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  transition: font-size 0.1s ease;
+}
