@@ -1,0 +1,97 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 60vh;
+  padding: 24px;
+}
+
+.card {
+  background: #2c2c2e;
+  border: 1px solid #3a3a3c;
+  border-radius: 24px;
+  padding: 40px;
+  max-width: 480px;
+  width: 100%;
+  text-align: center;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.4);
+}
+
+.header {
+  margin-bottom: 32px;
+}
+
+.badge {
+  background: rgba(255, 159, 10, 0.2);
+  color: #ff9f0a;
+  padding: 6px 16px;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  border: 1px solid rgba(255, 159, 10, 0.3);
+}
+
+.calculation {
+  margin-bottom: 24px;
+}
+
+.expression {
+  color: #888;
+  font-size: 1.2rem;
+  margin-bottom: 8px;
+}
+
+.equals {
+  color: #555;
+  font-size: 1.5rem;
+  margin-bottom: 8px;
+}
+
+.result {
+  color: #ffffff;
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.date {
+  color: #555;
+  font-size: 0.85rem;
+  margin-bottom: 32px;
+}
+
+.actions {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.copyBtn,
+.calcBtn {
+  padding: 10px 20px;
+  border-radius: 12px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: all 0.2s;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.copyBtn {
+  background: rgba(255, 159, 10, 0.15);
+  color: #ff9f0a;
+  border: 1px solid rgba(255, 159, 10, 0.3);
+}
+
+.copyBtn:hover {
+  background: rgba(255, 159, 10, 0.25);
+}
+
+.calcBtn {
+  background: rgba(255, 255, 255, 0.1);
+  color: #ffffff;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.calcBtn:hover {
+  background: rgba(255, 255, 255, 0.15);
+}
